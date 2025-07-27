@@ -29,7 +29,7 @@ Customer churn is a critical challenge for subscription-based services. The obje
 ## Visuals & Insights
 
 ### 1. Churn by Contract Type
-- **Insight:** Customers on month-to-month contracts have a churn rate **4x higher** than long-term contracts.
+- **Insight:** Customers on month-to-month plans show significantly higher churn than those on annual contracts.
 - **Action:** Offer discounts or loyalty perks for annual plans.
 
 ![Churn by Contract Type](https://github.com/serenavyuhachintala/CustomerChurn_TableauDashboard/blob/main/Churchrate_contracttype.png?raw=true)
@@ -37,40 +37,42 @@ Customer churn is a critical challenge for subscription-based services. The obje
 ---
 
 ### 2. Churn by Senior Citizen
-- 🔍 **Insight:** Senior citizens show a moderately higher churn rate than non-seniors.
-- 💡 **Action:** Improve digital support & outreach to retain older customer segments.
+- **Insight:** Non-Senior citizens show a moderately higher churn rate than seniors.
+- **Action:** Improve digital support & outreach to retain older customer segments.
 
 ![Churn by Senior](https://github.com/serenavyuhachintala/CustomerChurn_TableauDashboard/blob/main/Churn_bysenior.png?raw=true)
 ---
 
 ### 3. Scatterplot: Tenure vs Monthly Charges
-- 🔍 **Insight:** Most churners cluster around **low tenure** and **high monthly charges**.
-- 💡 **Action:** Flag new customers with high bills for retention campaigns.
+- **Insight:** A large portion of churners are clustered in the **low-tenure, high-bill** quadrant.
+- **Action:** Flag and engage new customers who face high charges early on.
 
 ![Scatterplot – Charges vs Tenure](https://github.com/serenavyuhachintala/CustomerChurn_TableauDashboard/blob/main/Churn_chargevstenure.png?raw=true)
 ---
 
 ### 4. Interactive Dashboard View
-- Users can filter by **contract type** to instantly see churn trends across other dimensions.
-- Clear, dynamic storytelling supports hands-on decision making.
+- Includes filter for **Contract Type** that refreshes visuals on the fly.
+- Dashboard layout supports intuitive exploration for business users.
 
 ![Dashboard Screenshot](https://github.com/serenavyuhachintala/CustomerChurn_TableauDashboard/blob/main/Customer%20churn%20dashboard.png?raw=true)
 
 ---
 
 ## Key Features
-- ✅ Built in **Tableau Public** with responsive filters
-- ✅ Data cleaning and light prep in Excel
-- ✅ Interactive dashboard with intuitive layout and clear KPIs
-- ✅ Designed for business users and analysts
+- Interactive dashboard built using **Tableau Public**
+- Clean layout optimized for storytelling and exploration
+- Dynamic filter by **Contract Type** for deep-dive analysis
+- Clear separation of key churn drivers: demographics, contracts, tenure, and billing
+- Designed for non-technical business users to explore and act on churn patterns
 
 ---
 
 ## Business Recommendations
-- Encourage customers to commit to longer-term contracts
-- Launch targeted retention offers for **high-churn segments**
-- Upsell tech support and online backup services to reduce attrition
-- Consider offering onboarding help to new customers with high monthly charges
+- **Promote longer-term contracts** to reduce churn — particularly for month-to-month customers
+- **Investigate churn among non-senior customers** — offer value-driven onboarding or early engagement incentives
+- **Target new customers with high monthly charges** for personalized retention offers within the first few months
+- Bundle services and support (e.g. Tech Support, Online Backup) to improve stickiness
+
 
 ---
 
